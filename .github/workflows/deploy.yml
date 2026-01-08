@@ -36,7 +36,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist/black-rose
+          path: dist/black-rose/browser
 
   deploy:
     needs: build
